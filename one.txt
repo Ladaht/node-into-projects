@@ -4,4 +4,4 @@ type: npm install axios, to install the depedency axios found inside package.jso
 adding axios to npm install will avoid npm getting confused. 
 it should install node-modules inside the project folder, and add axios. 
 do this everytime you are using a project that someone else made. 
- notes by Rossini
+ notes by Rossinii

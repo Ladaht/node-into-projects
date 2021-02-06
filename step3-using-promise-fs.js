@@ -14,7 +14,7 @@ async function write(path, contents) {
     }
 }
 
-/** read file at path and return contents. */
+/** read file at path and return contents.. */
 
 async function cat(path) {
   try {

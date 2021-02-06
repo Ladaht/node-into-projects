@@ -2,7 +2,7 @@ const fs = require('fs');
 const process = require('process');
 const axios = require('axios');
 
-/** handle output: write to file if out given, else print */
+/** handle output: write to file if out given elsee print */
 
 function handleOutput(text, out) {
   if (out) {

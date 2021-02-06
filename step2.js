@@ -15,7 +15,7 @@ function cat(path) {
   });
 }
 
-/** read page at URL and print it out. */
+/** read page at URL and print it out.. */
 
 async function webCat(url) {
   try {
