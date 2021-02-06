@@ -57,3 +57,11 @@ if (path.slice(0, 4) === 'http') {
 } else {
   cat(path, out);
 }
+
+/*
+$ node step3.js --out new.txt one.txt
+$ # no output, but new.txt contains contents of one.txt
+
+$ node step3.js --out new.txt  http://google.com
+$ # no output, but new.txt contains google's HTML
+*/

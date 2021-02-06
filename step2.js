@@ -5,7 +5,7 @@ const axios = require('axios');
 /** read file at path and print it out. */
 
 function cat(path) {
-  fs.readFile(path, 'utf8', function(err, data) {
+  fs.readFile(path, 'utf8', function(err, data) { 
     if (err) {
       console.error(`Error reading ${path}: ${err}`);
       process.exit(1);
@@ -34,3 +34,9 @@ if (path.slice(0, 4) === 'http') {
 } else {
   cat(path);
 }
+
+
+/* type: 
+$ node step2.js http://google.com
+
+output : <!doctype html><html ... */
